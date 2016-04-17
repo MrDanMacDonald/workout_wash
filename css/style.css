@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.pink {
+  background-color: #FF5274 !important;
+}
+
+.yellow {
+  background-color: #FEE000 !important;
+}
+
+.yellow:hover {
+  background-color: #d9bf00 !important;
+}
+
+.title-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.sub-title-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.brand-logo {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.section-header-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header-logo {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  color: black;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.custom-icon {
+  display: block;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-section {
+  margin-top: 1rem;
+}
