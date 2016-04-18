@@ -6680,9 +6680,14 @@ nav ul a span.badge {
   padding: 0;
 }
 
-/*Section that contains header text and button*/
-.section.no-pad-bot {
+/*Section that contains header text and button in the top-most section*/
+.section.no-pad-bot.hero {
   margin-top: 55px;
+  padding-bottom: 0;
+}
+
+/*Section that contains header text and subtext for the other images*/
+.section.no-pad-bot {
   padding-bottom: 0;
 }
 
