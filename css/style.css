@@ -143,3 +143,17 @@ footer.page-footer {
 .submit-button {
   margin-top: 10px;
 }
+
+.footer-text {
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.grey-text {
+  color: #444;
+}
