@@ -31,7 +31,7 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
+/*    position: absolute;*/
     top: 40%;
   }
   #index-banner .section {
@@ -156,4 +156,15 @@ footer.page-footer {
 
 .grey-text {
   color: #444;
+}
+
+/*Handles text in images for mobile*/
+
+@media only screen and (max-width: 500px) {
+  #section-2 {
+    margin-top: 65px;
+  }
+  #section-3 {
+    margin-top: 15px;
+  }
 }
