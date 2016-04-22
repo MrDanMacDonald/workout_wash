@@ -140,6 +140,14 @@ footer.page-footer {
   margin-top: 1rem;
 }
 
+#submit {
+  margin-top: 5px;
+}
+
+#submit-form-button {
+  margin-top: 0px;
+}
+
 .submit-button {
   margin-top: 10px;
 }
