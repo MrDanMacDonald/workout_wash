@@ -166,6 +166,10 @@ footer.page-footer {
   color: #444;
 }
 
+.light.info-section {
+  margin-top: 0px;
+}
+
 /*Handles text in images for mobile*/
 
 @media only screen and (max-width: 500px) {
